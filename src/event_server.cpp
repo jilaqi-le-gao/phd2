@@ -2983,3 +2983,25 @@ void EventServer::NotifyConfigurationChange()
     do_notify(m_eventServerClients, ev);
     m_configEventDebouncer->StartOnce(0);
 }
+
+
+/* dark lib related */
+static void test_response(JObj& response, const json_value *params)
+{
+    response << jrpc_result(all_equipment_connected());
+}
+
+static void has_dark(JObj& response, const json_value *params)
+{
+    response << jrpc_result(all_equipment_connected());
+}
+
+static void start_create_dark(JObj& response, const json_value *params)
+{
+    response << jrpc_result(all_equipment_connected());
+}
+
+static void stop_create_dark(JObj& response, const json_value *params)
+{
+    response << jrpc_result(all_equipment_connected());
+}
