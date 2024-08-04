@@ -2189,6 +2189,28 @@ static void dump_response(const JRpcCall& call)
     Debug.Write(wxString::Format("evsrv: cli %p response: %s\n", call.cli, s));
 }
 
+/* dark lib related */
+static void test_response(JObj& response, const json_value *params)
+{
+    response << jrpc_result(true);
+}
+
+static void has_dark(JObj& response, const json_value *params)
+{
+    response << jrpc_result(true);
+}
+
+static void start_create_dark(JObj& response, const json_value *params)
+{
+    response << jrpc_result(true);
+}
+
+static void stop_create_dark(JObj& response, const json_value *params)
+{
+    response << jrpc_result(true);
+}
+// end of dark lib related
+
 static bool handle_request(JRpcCall& call)
 {
     const json_value *params;
@@ -2410,6 +2432,14 @@ static bool handle_request(JRpcCall& call)
                     {
                         "export_config_settings",
                         &export_config_settings,
+                    },
+                    {
+                        "test_response",
+                        &test_response,
+                    },
+                    {
+                        "has_dark",
+                        &has_dark,
                     },
                     { "get_variable_delay_settings", &get_variable_delay_settings },
                     { "set_variable_delay_settings", &set_variable_delay_settings } };
@@ -2982,26 +3012,4 @@ void EventServer::NotifyConfigurationChange()
     Ev ev("ConfigurationChange");
     do_notify(m_eventServerClients, ev);
     m_configEventDebouncer->StartOnce(0);
-}
-
-
-/* dark lib related */
-static void test_response(JObj& response, const json_value *params)
-{
-    response << jrpc_result(all_equipment_connected());
-}
-
-static void has_dark(JObj& response, const json_value *params)
-{
-    response << jrpc_result(all_equipment_connected());
-}
-
-static void start_create_dark(JObj& response, const json_value *params)
-{
-    response << jrpc_result(all_equipment_connected());
-}
-
-static void stop_create_dark(JObj& response, const json_value *params)
-{
-    response << jrpc_result(all_equipment_connected());
 }
