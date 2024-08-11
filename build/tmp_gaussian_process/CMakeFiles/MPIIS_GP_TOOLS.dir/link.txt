@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMPIIS_GP_TOOLS.a CMakeFiles/MPIIS_GP_TOOLS.dir/tools/math_tools.cpp.o
+/usr/bin/ranlib libMPIIS_GP_TOOLS.a

@@ -1,0 +1,182 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"generate_single_doc_targets",
+			"generate_doc_targets"
+		],
+		"files" : 
+		[
+			"cmake_modules/PHD2BuildDoc.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 606,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 2
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Documentation/"
+	},
+	"id" : "ja_JP_html::@6890427a1f51a3e7e1df",
+	"name" : "ja_JP_html",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "html",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"name" : "generated",
+			"sourceIndexes" : 
+			[
+				13,
+				14
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/PHD2GuideHelp.hhp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Introduction.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Advanced_settings.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Basic_use.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Darks_BadPixel_Maps.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Guide_algorithms.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/KeyboardShortcuts.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/MainScreen.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Trouble_shooting.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Tutorials.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Visualization.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Tools.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/ja_JP/help/Glossary.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/tmp_build_html/ja_JP/PHD2GuideHelp.hhk",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/tmp_build_html/ja_JP/PHD2GuideHelp.zip",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/tmp_build_html/ja_JP/PHD2GuideHelp.hhk.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "UTILITY"
+}

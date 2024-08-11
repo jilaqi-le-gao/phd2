@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMPIIS_GP.a CMakeFiles/MPIIS_GP.dir/src/gaussian_process.cpp.o CMakeFiles/MPIIS_GP.dir/src/covariance_functions.cpp.o
+/usr/bin/ranlib libMPIIS_GP.a

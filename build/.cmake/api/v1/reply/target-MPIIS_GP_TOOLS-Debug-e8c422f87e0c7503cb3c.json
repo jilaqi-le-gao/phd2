@@ -1,0 +1,260 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "tmp_gaussian_process/libMPIIS_GP_TOOLS.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"contributions/MPI_IS_gaussian_process/CMakeLists.txt",
+			"thirdparty/thirdparty.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 122,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1045,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1108,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1063,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1058,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1127,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1032,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1020,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 640,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 426,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 626,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 726,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1098,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -g -std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_OGMA_CAMERA=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_OPENSSAG_CAMERA=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_QHY_CAMERA=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_SVB_CAMERA=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_SXV_CAMERA=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_TOUPTEK_CAMERA=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_ZWO_CAMERA=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "LIBNOVA"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/yunyinxi/code/cpp/phd2/build/libindi/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Contributions/"
+	},
+	"id" : "MPIIS_GP_TOOLS::@689d44d5e61af211b848",
+	"name" : "MPIIS_GP_TOOLS",
+	"nameOnDisk" : "libMPIIS_GP_TOOLS.a",
+	"paths" : 
+	{
+		"build" : "tmp_gaussian_process",
+		"source" : "contributions/MPI_IS_gaussian_process"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "contributions/MPI_IS_gaussian_process/tools/math_tools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "contributions/MPI_IS_gaussian_process/tools/math_tools.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

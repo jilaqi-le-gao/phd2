@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/CMakeFiles/indi"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/CMakeFiles/indi.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/CMakeFiles/indi-complete.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-build.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-configure.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-download.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-install.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-mkdir.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-patch.rule"
+		},
+		{
+			"file" : "/home/yunyinxi/code/cpp/phd2/build/indi-prefix/src/indi-stamp/indi-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"indi"
+		],
+		"name" : "indi"
+	}
+}

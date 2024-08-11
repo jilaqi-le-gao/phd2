@@ -2197,6 +2197,7 @@ static void test_response(JObj& response, const json_value *params)
 
 static void has_dark(JObj& response, const json_value *params)
 {
+    
     response << jrpc_result(true);
 }
 

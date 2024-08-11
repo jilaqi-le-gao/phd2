@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++11 -g CMakeFiles/GaussianProcessTest.dir/tests/gaussian_process/gaussian_process_test.cpp.o -o GaussianProcessTest  libMPIIS_GP.a ../lib/libgtest.a libMPIIS_GP_TOOLS.a 

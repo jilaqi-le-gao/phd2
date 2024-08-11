@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOpenSSAG.a CMakeFiles/OpenSSAG.dir/thirdparty/openssag/src/loader.cpp.o CMakeFiles/OpenSSAG.dir/thirdparty/openssag/src/openssag.cpp.o
+/usr/bin/ranlib libOpenSSAG.a

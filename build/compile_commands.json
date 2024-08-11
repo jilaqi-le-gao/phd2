@@ -1,0 +1,926 @@
+[
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/core.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/core.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/core.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/core.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/descriptor.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/descriptor.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/descriptor.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/descriptor.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/hotplug.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/hotplug.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/hotplug.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/hotplug.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/io.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/io.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/io.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/io.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/sync.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/sync.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/sync.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/sync.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/linux_usbfs.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/linux_usbfs.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/linux_usbfs.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/linux_usbfs.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/linux_netlink.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/linux_netlink.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/linux_netlink.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/linux_netlink.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/threads_posix.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/threads_posix.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/threads_posix.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/threads_posix.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DLIBUSB_DESCRIBE -DOS_LINUX=1 -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/thirdparty/include/libusb-1.0.21 -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -g -o CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/poll_posix.c.o -c /home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/poll_posix.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb/os/poll_posix.c",
+  "output": "CMakeFiles/usb_openphd.dir/external_libs_deflate/libusb-1.0.21/libusb/os/poll_posix.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2  -std=c++11 -g -std=gnu++14 -o CMakeFiles/OpenSSAG.dir/thirdparty/openssag/src/loader.cpp.o -c /home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src/loader.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src/loader.cpp",
+  "output": "CMakeFiles/OpenSSAG.dir/thirdparty/openssag/src/loader.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2  -std=c++11 -g -std=gnu++14 -o CMakeFiles/OpenSSAG.dir/thirdparty/openssag/src/openssag.cpp.o -c /home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src/openssag.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src/openssag.cpp",
+  "output": "CMakeFiles/OpenSSAG.dir/thirdparty/openssag/src/openssag.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/mount.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/mount.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/mount.cpp",
+  "output": "CMakeFiles/phd2.dir/src/mount.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_ascom.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_ascom.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_ascom.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_ascom.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_eqmac.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_eqmac.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_eqmac.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_eqmac.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_equinox.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_equinox.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_equinox.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_equinox.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_GC_USBST4.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_GC_USBST4.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_GC_USBST4.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_GC_USBST4.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_gpint.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_gpint.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_gpint.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_gpint.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_gpusb.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_gpusb.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_gpusb.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_gpusb.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_manual_pointing.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_manual_pointing.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_manual_pointing.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_manual_pointing.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_onboard_st4.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_onboard_st4.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_onboard_st4.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_onboard_st4.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_oncamera.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_oncamera.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_oncamera.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_oncamera.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_onstepguider.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_onstepguider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_onstepguider.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_onstepguider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_voyager.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_voyager.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_voyager.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_voyager.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/scope_indi.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/scope_indi.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/scope_indi.cpp",
+  "output": "CMakeFiles/phd2.dir/src/scope_indi.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/stepguider_sxao.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/stepguider_sxao.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/stepguider_sxao.cpp",
+  "output": "CMakeFiles/phd2.dir/src/stepguider_sxao.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/stepguider_sxao_indi.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/stepguider_sxao_indi.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/stepguider_sxao_indi.cpp",
+  "output": "CMakeFiles/phd2.dir/src/stepguider_sxao_indi.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/stepguider_sbigao_indi.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/stepguider_sbigao_indi.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/stepguider_sbigao_indi.cpp",
+  "output": "CMakeFiles/phd2.dir/src/stepguider_sbigao_indi.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/stepguider.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/stepguider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/stepguider.cpp",
+  "output": "CMakeFiles/phd2.dir/src/stepguider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_altair.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_altair.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_altair.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_altair.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_ascom.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_ascom.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_ascom.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_ascom.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_atik16.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_atik16.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_atik16.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_atik16.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_firewire_IC.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_firewire_IC.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_firewire_IC.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_firewire_IC.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_firewire_OSX.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_firewire_OSX.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_firewire_OSX.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_firewire_OSX.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_indi.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_indi.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_indi.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_indi.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_INovaPLC.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_INovaPLC.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_INovaPLC.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_INovaPLC.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_ioptron.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_ioptron.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_ioptron.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_ioptron.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_KWIQGuider.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_KWIQGuider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_KWIQGuider.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_KWIQGuider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_LEwebcam.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_LEwebcam.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_LEwebcam.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_LEwebcam.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_MeadeDSI.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_MeadeDSI.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_MeadeDSI.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_MeadeDSI.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_moravian.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_moravian.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_moravian.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_moravian.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_NebSBIG.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_NebSBIG.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_NebSBIG.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_NebSBIG.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_ogma.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_ogma.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_ogma.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_ogma.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_opencv.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_opencv.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_opencv.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_opencv.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_openssag.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_openssag.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_openssag.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_openssag.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_OSPL130.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_OSPL130.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_OSPL130.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_OSPL130.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_qguide.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_qguide.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_qguide.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_qguide.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_qhy.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_qhy.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_qhy.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_qhy.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_sbig.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_sbig.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_sbig.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_sbig.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_sbigrotator.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_sbigrotator.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_sbigrotator.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_sbigrotator.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_skyraider.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_skyraider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_skyraider.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_skyraider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_sspiag.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_sspiag.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_sspiag.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_sspiag.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_starfish.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_starfish.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_starfish.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_starfish.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_StarShootDSCI.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_StarShootDSCI.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_StarShootDSCI.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_StarShootDSCI.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_svb.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_svb.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_svb.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_svb.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_sxv.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_sxv.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_sxv.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_sxv.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/gcc -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4 -g -pthread -o CMakeFiles/phd2.dir/cameras/SXMacLib.c.o -c /home/yunyinxi/code/cpp/phd2/cameras/SXMacLib.c",
+  "file": "/home/yunyinxi/code/cpp/phd2/cameras/SXMacLib.c",
+  "output": "CMakeFiles/phd2.dir/cameras/SXMacLib.c.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_touptek.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_touptek.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_touptek.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_touptek.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_vfw.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_vfw.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_vfw.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_vfw.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_wdm.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_wdm.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_wdm.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_wdm.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_zwo.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_zwo.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_zwo.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_zwo.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/camera.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/camera.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/camera.cpp",
+  "output": "CMakeFiles/phd2.dir/src/camera.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/cam_qhy5.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/cam_qhy5.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/cam_qhy5.cpp",
+  "output": "CMakeFiles/phd2.dir/src/cam_qhy5.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/backlash_comp.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/backlash_comp.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/backlash_comp.cpp",
+  "output": "CMakeFiles/phd2.dir/src/backlash_comp.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_hysteresis.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_hysteresis.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_hysteresis.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_hysteresis.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_gaussian_process.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_gaussian_process.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_gaussian_process.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_gaussian_process.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_identity.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_identity.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_identity.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_identity.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_lowpass.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_lowpass.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_lowpass.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_lowpass.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_lowpass2.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_lowpass2.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_lowpass2.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_lowpass2.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_resistswitch.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_resistswitch.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_resistswitch.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_resistswitch.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm_zfilter.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm_zfilter.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm_zfilter.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm_zfilter.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guide_algorithm.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guide_algorithm.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guide_algorithm.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guide_algorithm.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guider_multistar.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guider_multistar.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guider_multistar.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guider_multistar.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guider.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guider.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/zfilterfactory.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/zfilterfactory.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/zfilterfactory.cpp",
+  "output": "CMakeFiles/phd2.dir/src/zfilterfactory.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/about_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/about_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/about_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/about_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/advanced_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/advanced_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/advanced_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/advanced_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/aui_controls.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/aui_controls.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/aui_controls.cpp",
+  "output": "CMakeFiles/phd2.dir/src/aui_controls.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/calreview_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/calreview_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/calreview_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/calreview_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/calibration_assistant.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/calibration_assistant.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/calibration_assistant.cpp",
+  "output": "CMakeFiles/phd2.dir/src/calibration_assistant.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/calstep_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/calstep_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/calstep_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/calstep_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/camcal_import_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/camcal_import_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/camcal_import_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/camcal_import_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/comet_tool.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/comet_tool.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/comet_tool.cpp",
+  "output": "CMakeFiles/phd2.dir/src/comet_tool.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/config_indi.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/config_indi.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/config_indi.cpp",
+  "output": "CMakeFiles/phd2.dir/src/config_indi.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/configdialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/configdialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/configdialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/configdialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/confirm_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/confirm_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/confirm_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/confirm_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/darks_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/darks_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/darks_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/darks_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/debuglog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/debuglog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/debuglog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/debuglog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/drift_tool.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/drift_tool.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/drift_tool.cpp",
+  "output": "CMakeFiles/phd2.dir/src/drift_tool.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/eegg.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/eegg.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/eegg.cpp",
+  "output": "CMakeFiles/phd2.dir/src/eegg.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/event_server.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/event_server.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/event_server.cpp",
+  "output": "CMakeFiles/phd2.dir/src/event_server.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/fitsiowrap.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/fitsiowrap.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/fitsiowrap.cpp",
+  "output": "CMakeFiles/phd2.dir/src/fitsiowrap.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/gear_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/gear_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/gear_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/gear_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/gear_simulator.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/gear_simulator.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/gear_simulator.cpp",
+  "output": "CMakeFiles/phd2.dir/src/gear_simulator.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/graph-stepguider.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/graph-stepguider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/graph-stepguider.cpp",
+  "output": "CMakeFiles/phd2.dir/src/graph-stepguider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/graph.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/graph.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/graph.cpp",
+  "output": "CMakeFiles/phd2.dir/src/graph.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guiding_assistant.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guiding_assistant.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guiding_assistant.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guiding_assistant.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guidinglog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guidinglog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guidinglog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guidinglog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/guiding_stats.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/guiding_stats.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/guiding_stats.cpp",
+  "output": "CMakeFiles/phd2.dir/src/guiding_stats.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/image_math.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/image_math.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/image_math.cpp",
+  "output": "CMakeFiles/phd2.dir/src/image_math.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/imagelogger.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/imagelogger.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/imagelogger.cpp",
+  "output": "CMakeFiles/phd2.dir/src/imagelogger.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/indi_gui.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/indi_gui.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/indi_gui.cpp",
+  "output": "CMakeFiles/phd2.dir/src/indi_gui.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/json_parser.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/json_parser.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/json_parser.cpp",
+  "output": "CMakeFiles/phd2.dir/src/json_parser.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/logger.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/logger.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/logger.cpp",
+  "output": "CMakeFiles/phd2.dir/src/logger.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/log_uploader.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/log_uploader.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/log_uploader.cpp",
+  "output": "CMakeFiles/phd2.dir/src/log_uploader.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/manualcal_dialog.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/manualcal_dialog.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/manualcal_dialog.cpp",
+  "output": "CMakeFiles/phd2.dir/src/manualcal_dialog.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/messagebox_proxy.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/messagebox_proxy.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/messagebox_proxy.cpp",
+  "output": "CMakeFiles/phd2.dir/src/messagebox_proxy.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/myframe.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/myframe.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/myframe.cpp",
+  "output": "CMakeFiles/phd2.dir/src/myframe.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/myframe_events.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/myframe_events.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/myframe_events.cpp",
+  "output": "CMakeFiles/phd2.dir/src/myframe_events.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/nudge_lock.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/nudge_lock.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/nudge_lock.cpp",
+  "output": "CMakeFiles/phd2.dir/src/nudge_lock.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/onboard_st4.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/onboard_st4.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/onboard_st4.cpp",
+  "output": "CMakeFiles/phd2.dir/src/onboard_st4.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/optionsbutton.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/optionsbutton.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/optionsbutton.cpp",
+  "output": "CMakeFiles/phd2.dir/src/optionsbutton.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/phd.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/phd.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/phd.cpp",
+  "output": "CMakeFiles/phd2.dir/src/phd.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/phdconfig.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/phdconfig.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/phdconfig.cpp",
+  "output": "CMakeFiles/phd2.dir/src/phdconfig.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/phdcontrol.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/phdcontrol.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/phdcontrol.cpp",
+  "output": "CMakeFiles/phd2.dir/src/phdcontrol.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/phdupdate.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/phdupdate.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/phdupdate.cpp",
+  "output": "CMakeFiles/phd2.dir/src/phdupdate.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/pierflip_tool.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/pierflip_tool.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/pierflip_tool.cpp",
+  "output": "CMakeFiles/phd2.dir/src/pierflip_tool.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/polardrift_toolwin.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/polardrift_toolwin.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/polardrift_toolwin.cpp",
+  "output": "CMakeFiles/phd2.dir/src/polardrift_toolwin.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/profile_wizard.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/profile_wizard.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/profile_wizard.cpp",
+  "output": "CMakeFiles/phd2.dir/src/profile_wizard.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/Refine_DefMap.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/Refine_DefMap.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/Refine_DefMap.cpp",
+  "output": "CMakeFiles/phd2.dir/src/Refine_DefMap.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/rotator.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/rotator.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/rotator.cpp",
+  "output": "CMakeFiles/phd2.dir/src/rotator.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/rotator_ascom.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/rotator_ascom.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/rotator_ascom.cpp",
+  "output": "CMakeFiles/phd2.dir/src/rotator_ascom.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/rotator_indi.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/rotator_indi.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/rotator_indi.cpp",
+  "output": "CMakeFiles/phd2.dir/src/rotator_indi.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/runinbg.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/runinbg.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/runinbg.cpp",
+  "output": "CMakeFiles/phd2.dir/src/runinbg.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/serialport.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/serialport.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/serialport.cpp",
+  "output": "CMakeFiles/phd2.dir/src/serialport.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/serialport_loopback.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/serialport_loopback.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/serialport_loopback.cpp",
+  "output": "CMakeFiles/phd2.dir/src/serialport_loopback.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/serialport_mac.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/serialport_mac.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/serialport_mac.cpp",
+  "output": "CMakeFiles/phd2.dir/src/serialport_mac.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/serialport_win32.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/serialport_win32.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/serialport_win32.cpp",
+  "output": "CMakeFiles/phd2.dir/src/serialport_win32.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/serialport_posix.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/serialport_posix.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/serialport_posix.cpp",
+  "output": "CMakeFiles/phd2.dir/src/serialport_posix.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/sha1.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/sha1.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/sha1.cpp",
+  "output": "CMakeFiles/phd2.dir/src/sha1.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/socket_server.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/socket_server.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/socket_server.cpp",
+  "output": "CMakeFiles/phd2.dir/src/socket_server.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/starcross_test.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/starcross_test.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/starcross_test.cpp",
+  "output": "CMakeFiles/phd2.dir/src/starcross_test.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/staticpa_toolwin.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/staticpa_toolwin.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/staticpa_toolwin.cpp",
+  "output": "CMakeFiles/phd2.dir/src/staticpa_toolwin.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/statswindow.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/statswindow.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/statswindow.cpp",
+  "output": "CMakeFiles/phd2.dir/src/statswindow.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/star.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/star.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/star.cpp",
+  "output": "CMakeFiles/phd2.dir/src/star.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/star_profile.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/star_profile.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/star_profile.cpp",
+  "output": "CMakeFiles/phd2.dir/src/star_profile.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/target.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/target.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/target.cpp",
+  "output": "CMakeFiles/phd2.dir/src/target.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/testguide.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/testguide.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/testguide.cpp",
+  "output": "CMakeFiles/phd2.dir/src/testguide.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/usImage.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/usImage.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/usImage.cpp",
+  "output": "CMakeFiles/phd2.dir/src/usImage.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/worker_thread.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/worker_thread.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/worker_thread.cpp",
+  "output": "CMakeFiles/phd2.dir/src/worker_thread.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_TYPE_TRAITS -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -DOS_LINUX=1 -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/src -I/home/yunyinxi/code/cpp/phd2/cameras -I/home/yunyinxi/code/cpp/phd2 -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -isystem /usr/include/opencv4  -std=c++11 -g -std=gnu++14 -pthread -o CMakeFiles/phd2.dir/src/wxled.cpp.o -c /home/yunyinxi/code/cpp/phd2/src/wxled.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/src/wxled.cpp",
+  "output": "CMakeFiles/phd2.dir/src/wxled.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++  -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++  -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++  -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++  -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src  -std=c++11 -g -std=gnu++14 -o CMakeFiles/MPIIS_GP_TOOLS.dir/tools/math_tools.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools/math_tools.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools/math_tools.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/MPIIS_GP_TOOLS.dir/tools/math_tools.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools  -std=c++11 -g -std=gnu++14 -o CMakeFiles/MPIIS_GP.dir/src/gaussian_process.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src/gaussian_process.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src/gaussian_process.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/MPIIS_GP.dir/src/gaussian_process.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools  -std=c++11 -g -std=gnu++14 -o CMakeFiles/MPIIS_GP.dir/src/covariance_functions.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src/covariance_functions.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src/covariance_functions.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/MPIIS_GP.dir/src/covariance_functions.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -I/home/yunyinxi/code/cpp/phd2/src  -std=c++11 -g -std=gnu++14 -o CMakeFiles/GPGuider.dir/src/gaussian_process_guider.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src/gaussian_process_guider.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src/gaussian_process_guider.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/GPGuider.dir/src/gaussian_process_guider.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=gnu++14 -o CMakeFiles/GaussianProcessTest.dir/tests/gaussian_process/gaussian_process_test.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/gaussian_process_test.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/gaussian_process_test.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/GaussianProcessTest.dir/tests/gaussian_process/gaussian_process_test.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -I/usr/include/eigen3 -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=gnu++14 -o CMakeFiles/MathToolboxTest.dir/tests/gaussian_process/math_tools_test.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/math_tools_test.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/math_tools_test.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/MathToolboxTest.dir/tests/gaussian_process/math_tools_test.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -I/home/yunyinxi/code/cpp/phd2/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=gnu++14 -o CMakeFiles/GPGuiderTest.dir/tests/gaussian_process/gp_guider_test.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/gp_guider_test.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/gp_guider_test.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/GPGuiderTest.dir/tests/gaussian_process/gp_guider_test.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -I/home/yunyinxi/code/cpp/phd2/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=gnu++14 -o CMakeFiles/GuidePerformanceTest.dir/tests/gaussian_process/guide_performance_test.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/guide_performance_test.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/guide_performance_test.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/GuidePerformanceTest.dir/tests/gaussian_process/guide_performance_test.cpp.o"
+},
+{
+  "directory": "/home/yunyinxi/code/cpp/phd2/build/tmp_gaussian_process",
+  "command": "/usr/bin/g++ -DHAVE_OGMA_CAMERA=1 -DHAVE_OPENSSAG_CAMERA=1 -DHAVE_QHY_CAMERA=1 -DHAVE_SVB_CAMERA=1 -DHAVE_SXV_CAMERA=1 -DHAVE_TOUPTEK_CAMERA=1 -DHAVE_ZWO_CAMERA=1 -DLIBNOVA -I/home/yunyinxi/code/cpp/phd2/build/external_libs_deflate/libusb-1.0.21/libusb -I/home/yunyinxi/code/cpp/phd2/build/libindi/include -I/home/yunyinxi/code/cpp/phd2/build/_deps/ogmacamsdk-src/inc -I/home/yunyinxi/code/cpp/phd2/thirdparty/openssag/src -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tools -I/home/yunyinxi/code/cpp/phd2/src -I/usr/include/eigen3 -I/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/src -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest/include -isystem /home/yunyinxi/code/cpp/phd2/build/_deps/googletest-src/googletest  -std=c++11 -g -std=gnu++14 -o CMakeFiles/GuidePerformanceEval.dir/tests/gaussian_process/evaluate_performance.cpp.o -c /home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/evaluate_performance.cpp",
+  "file": "/home/yunyinxi/code/cpp/phd2/contributions/MPI_IS_gaussian_process/tests/gaussian_process/evaluate_performance.cpp",
+  "output": "tmp_gaussian_process/CMakeFiles/GuidePerformanceEval.dir/tests/gaussian_process/evaluate_performance.cpp.o"
+}
+]

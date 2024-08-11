@@ -1,0 +1,164 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"generate_single_doc_targets",
+			"generate_doc_targets"
+		],
+		"files" : 
+		[
+			"cmake_modules/PHD2BuildDoc.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 606,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 2
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Documentation/"
+	},
+	"id" : "fr_FR_html::@6890427a1f51a3e7e1df",
+	"name" : "fr_FR_html",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "html",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "generated",
+			"sourceIndexes" : 
+			[
+				10,
+				11
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/PHD2GuideHelp.hhp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/MainScreen.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Basic_use.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Visualization.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Advanced_settings.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Guide_algorithms.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Tools.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Introduction.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Trouble_shooting.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "locale/fr_FR/help/Darks_BadPixel_Maps.htm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/tmp_build_html/fr_FR/PHD2GuideHelp.hhk",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/tmp_build_html/fr_FR/PHD2GuideHelp.zip",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/tmp_build_html/fr_FR/PHD2GuideHelp.hhk.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++11 -g CMakeFiles/GuidePerformanceTest.dir/tests/gaussian_process/guide_performance_test.cpp.o -o GuidePerformanceTest  libMPIIS_GP.a ../lib/libgtest.a libGPGuider.a libMPIIS_GP.a libMPIIS_GP_TOOLS.a 
