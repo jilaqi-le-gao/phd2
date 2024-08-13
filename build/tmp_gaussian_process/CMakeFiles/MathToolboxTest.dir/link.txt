@@ -1,1 +1,0 @@
-/usr/bin/g++  -std=c++11 -g CMakeFiles/MathToolboxTest.dir/tests/gaussian_process/math_tools_test.cpp.o -o MathToolboxTest  libMPIIS_GP_TOOLS.a ../lib/libgtest.a 

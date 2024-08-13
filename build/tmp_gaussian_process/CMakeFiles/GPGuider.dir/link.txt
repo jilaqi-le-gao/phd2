@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGPGuider.a CMakeFiles/GPGuider.dir/src/gaussian_process_guider.cpp.o
-/usr/bin/ranlib libGPGuider.a

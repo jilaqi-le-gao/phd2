@@ -1,1 +1,0 @@
-/usr/bin/g++  -std=c++11 -g CMakeFiles/GPGuiderTest.dir/tests/gaussian_process/gp_guider_test.cpp.o -o GPGuiderTest  libMPIIS_GP.a ../lib/libgtest.a libGPGuider.a libMPIIS_GP.a libMPIIS_GP_TOOLS.a 
