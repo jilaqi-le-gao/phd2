@@ -2321,9 +2321,9 @@ static void start_create_dark(JObj& response, const json_value *params)
     }
     int minEXP, maxEXP;
     int darkFrameCount, minExpInx, maxExpInx;
-    darkFrameCount = params->first_child->int_value;
-    minEXP = round(1000* params->first_child->next_sibling->float_value);
-    maxEXP = round(1000* params->last_child->float_value);
+    darkFrameCount = params->last_child->int_value;
+    minEXP = round(1000* params->first_child->float_value);
+    maxEXP = round(1000* params->first_child->next_sibling->float_value);
     std::vector<int> exposureDurations;
     exposureDurations = pFrame->GetExposureDurations();
     std::sort(exposureDurations.begin(), exposureDurations.end());
@@ -2345,8 +2345,8 @@ static void start_create_dark(JObj& response, const json_value *params)
     m_started = true;
     wxYield();
 
-    if (!pCamera->HasShutter)
-        wxMessageBox(_("Cover guide scope"));
+    // if (!pCamera->HasShutter)
+    //     wxMessageBox(_("Cover guide scope"));
     pCamera->ShutterClosed = true;
 
 
