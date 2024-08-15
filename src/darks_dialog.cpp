@@ -381,7 +381,6 @@ void DarksDialog::OnStart(wxCommandEvent& evt)
         EndDialog(wxOK);
     }
 }
-
 // Event handler for dual mode cancel/stop button
 void DarksDialog::OnStop(wxCommandEvent& evt)
 {
@@ -486,7 +485,6 @@ struct Histogram
         }
     }
 };
-
 bool DarksDialog::CreateMasterDarkFrame(usImage& darkFrame, int expTime, int frameCount)
 {
     bool err = false;

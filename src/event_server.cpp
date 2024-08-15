@@ -38,7 +38,7 @@
 #include <wx/sckstrm.h>
 #include <sstream>
 #include <string.h>
-
+#include <algorithm>
 EventServer EvtServer;
 
 // clang-format off
@@ -2188,27 +2188,237 @@ static void dump_response(const JRpcCall& call)
 
     Debug.Write(wxString::Format("evsrv: cli %p response: %s\n", call.cli, s));
 }
-
 /* dark lib related */
+struct Histogram
+{
+    unsigned long val[256];
+    unsigned int median;
+    double mean;
+
+    Histogram(const usImage& img)
+    {
+        memset(&val[0], 0, sizeof(val));
+        mean = 0.0;
+        for (unsigned int i = 0; i < img.NPixels; i++)
+        {
+            unsigned short v = img.ImageData[i];
+            mean += v;
+            v >>= (img.BitsPerPixel - 8);
+            if (v > 255)
+                v = 255; // should never happen if BitsPerPixel is valid
+            ++val[v];
+        }
+        mean /= img.NPixels;
+        // median (approx)
+        unsigned long sum = 0;
+        int i;
+        for (i = 0; i < 256; i++)
+        {
+            sum += val[i];
+            if (sum > img.NPixels / 2)
+                break;
+        }
+        median = i << (img.BitsPerPixel - 8);
+    }
+
+    void Dump()
+    {
+        Debug.Write(wxString::Format("mean = %.f  median(approx) = %u\n", mean, median));
+        int i = 0;
+        for (int l = 0; l < 4; l++)
+        {
+            std::ostringstream os;
+            os << "histo[" << (l * 64) << ".." << ((l + 1) * 64 - 1) << "]";
+            for (int j = 0; j < 64; j++, i++)
+                os << ' ' << val[i];
+            os << "\n";
+            Debug.Write(os.str());
+        }
+    }
+};
+bool m_cancelling = false;
+bool m_started = false;
+bool m_has_dark = false;
+bool CreateMasterDarkFrame(usImage& darkFrame, int expTime, int frameCount)
+{
+    bool err = false;
+
+    pCamera->InitCapture();
+    darkFrame.ImgExpDur = expTime;
+    darkFrame.ImgStackCnt = frameCount;
+
+    unsigned int *avgimg = 0;
+
+    for (int j = 1; j <= frameCount; j++)
+    {
+        wxYield();
+
+        Debug.Write(wxString::Format("Capture dark frame %d/%d exp=%d\n", j, frameCount, expTime));
+        err = GuideCamera::Capture(pCamera, expTime, darkFrame, CAPTURE_DARK);
+        if (err)
+        {
+            pCamera->ShutterClosed = false;
+            break;
+        }
+
+        wxYield();
+
+        darkFrame.CalcStats();
+
+        Debug.Write(wxString::Format("dark frame stats: bpp %u min %u max %u med %u filtmin %u filtmax %u\n",
+                                     darkFrame.BitsPerPixel, darkFrame.MinADU, darkFrame.MaxADU, darkFrame.MedianADU,
+                                     darkFrame.FiltMin, darkFrame.FiltMax));
+
+        Histogram h(darkFrame);
+        h.Dump();
+        wxYield();
+
+        if (!avgimg)
+        {
+            avgimg = new unsigned int[darkFrame.NPixels];
+            memset(avgimg, 0, darkFrame.NPixels * sizeof(*avgimg));
+        }
+
+        unsigned int *iptr = avgimg;
+        const unsigned short *usptr = darkFrame.ImageData;
+        for (unsigned int i = 0; i < darkFrame.NPixels; i++)
+            *iptr++ += *usptr++;
+    }
+
+    if (!m_cancelling && !err)
+    {
+        const unsigned int *iptr = avgimg;
+        unsigned short *usptr = darkFrame.ImageData;
+        for (unsigned int i = 0; i < darkFrame.NPixels; i++)
+            *usptr++ = (unsigned short) (*iptr++ / frameCount);
+    }
+
+    wxYield();
+
+    delete[] avgimg;
+
+    return err;
+}
+
 static void test_response(JObj& response, const json_value *params)
 {
-    response << jrpc_result(true);
+    // response << jrpc_result(params->name);
+    response << jrpc_result(params->first_child->name);
+    response << jrpc_result(false);
 }
 
 static void has_dark(JObj& response, const json_value *params)
 {
-    response << jrpc_result(true);
+
+    response << jrpc_result(m_has_dark);
 }
 
 static void start_create_dark(JObj& response, const json_value *params)
 {
-    response << jrpc_result(true);
+    if (m_started) {
+        response << jrpc_result(false);
+        return;
+    }
+    int minEXP, maxEXP;
+    int darkFrameCount, minExpInx, maxExpInx;
+    darkFrameCount = params->first_child->int_value;
+    minEXP = round(1000* params->first_child->next_sibling->float_value);
+    maxEXP = round(1000* params->last_child->float_value);
+    std::vector<int> exposureDurations;
+    exposureDurations = pFrame->GetExposureDurations();
+    std::sort(exposureDurations.begin(), exposureDurations.end());
+    auto min_tmp = std::find(exposureDurations.begin(), exposureDurations.end(), minEXP);
+    if (min_tmp == exposureDurations.end()) {
+        response << jrpc_result(false);
+        return;
+    } else {
+        minExpInx = min_tmp - exposureDurations.begin();
+    }
+    auto max_tmp = std::find(exposureDurations.begin(), exposureDurations.end(), maxEXP);
+    if (max_tmp == exposureDurations.end()) {
+        response << jrpc_result(false);
+        return;
+    } else {
+        maxExpInx = max_tmp - exposureDurations.begin();
+    }
+    
+    m_started = true;
+    wxYield();
+
+    if (!pCamera->HasShutter)
+        wxMessageBox(_("Cover guide scope"));
+    pCamera->ShutterClosed = true;
+
+
+    wxString wrapupMsg;
+
+    bool err = false;
+
+    int tot_dur = 0;
+    for (int i = minExpInx; i <= maxExpInx; i++)
+        tot_dur += exposureDurations[i] * darkFrameCount;
+
+
+    for (int inx = minExpInx; inx <= maxExpInx; inx++)
+    {
+        int darkExpTime = exposureDurations[inx];
+        usImage *newDark = new usImage();
+        err = CreateMasterDarkFrame(*newDark, exposureDurations[inx], darkFrameCount);
+        wxYield();
+        if (m_cancelling || err)
+        {
+            m_started = false;
+            delete newDark;
+            break;
+        }
+        else
+        {
+            pCamera->AddDark(newDark);
+        }
+    }
+
+    if (m_cancelling || err)
+    {
+        if (pFrame->DarkLibExists(pConfig->GetCurrentProfileId(), false))
+        {
+            if (pFrame->LoadDarkHandler(true))
+                Debug.AddLine("Dark library abort, dark library restored.");
+            else
+                Debug.AddLine("Dark library abort, dark library still invalid.");
+        }
+    }
+    else
+    {
+        pFrame->SaveDarkLibrary("");
+        pFrame->LoadDarkHandler(true); // Put it to use, including selection of matching dark frame
+        wrapupMsg = _("dark library built");
+        Debug.AddLine("Dark library - dark lib modified/extended.");
+    }
+ 
+    pFrame->SetDarkMenuState(); // Hard to know where we are at this point
+    if (m_cancelling || err) {
+        response << jrpc_result(false);
+    } else {
+        m_cancelling = false;
+        m_started = false;
+        m_has_dark = true;
+        response << jrpc_result(true);
+    }
 }
 
 static void stop_create_dark(JObj& response, const json_value *params)
 {
-    response << jrpc_result(true);
+    
+    if (m_started)
+    {
+        m_cancelling = true;
+        response << jrpc_result(true);
+    } else {
+        response << jrpc_result(false);
+
+    }
 }
+
 // end of dark lib related
 
 static bool handle_request(JRpcCall& call)
@@ -2440,6 +2650,14 @@ static bool handle_request(JRpcCall& call)
                     {
                         "has_dark",
                         &has_dark,
+                    },
+                    {
+                        "start_create_dark",
+                        &start_create_dark,
+                    },
+                    {
+                        "stop_create_dark",
+                        &stop_create_dark,
                     },
                     { "get_variable_delay_settings", &get_variable_delay_settings },
                     { "set_variable_delay_settings", &set_variable_delay_settings } };
