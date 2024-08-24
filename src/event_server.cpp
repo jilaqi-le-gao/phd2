@@ -2238,7 +2238,7 @@ struct Histogram
 };
 bool m_cancelling = false;
 bool m_started = false;
-bool m_has_dark = false;
+
 bool CreateMasterDarkFrame(usImage& darkFrame, int expTime, int frameCount)
 {
     bool err = false;
@@ -2303,14 +2303,19 @@ bool CreateMasterDarkFrame(usImage& darkFrame, int expTime, int frameCount)
 static void test_response(JObj& response, const json_value *params)
 {
     // response << jrpc_result(params->name);
-    response << jrpc_result(params->first_child->name);
-    response << jrpc_result(false);
+    response << jrpc_result("1");
+    response << jrpc_result("2");
+    response << jrpc_result("3");
+    response << jrpc_result("4");
 }
 
 static void has_dark(JObj& response, const json_value *params)
 {
-
-    response << jrpc_result(m_has_dark);
+    if (pCamera->Darks.empty()) {
+        response << jrpc_result(false);
+    } else {
+        response << jrpc_result(true);
+    }
 }
 
 static void start_create_dark(JObj& response, const json_value *params)
@@ -2321,9 +2326,16 @@ static void start_create_dark(JObj& response, const json_value *params)
     }
     int minEXP, maxEXP;
     int darkFrameCount, minExpInx, maxExpInx;
+    bool NewDarkLib = true; //这里相当于允许传第四个参数，1则是建立新darklib，0则是不建立新的darklib。默认是1。
     darkFrameCount = params->first_child->int_value;
-    minEXP = round(1000* params->first_child->next_sibling->float_value);
-    maxEXP = round(1000* params->last_child->float_value);
+    const json_value * p_minEXP = params->first_child->next_sibling;
+    minEXP = round(1000* p_minEXP->float_value);
+    const json_value * p_maxEXP = p_minEXP->next_sibling;
+    maxEXP = round(1000* p_maxEXP->float_value);
+    if (p_maxEXP->next_sibling != NULL) {
+        NewDarkLib = p_maxEXP->next_sibling->int_value;
+    }
+    
     std::vector<int> exposureDurations;
     exposureDurations = pFrame->GetExposureDurations();
     std::sort(exposureDurations.begin(), exposureDurations.end());
@@ -2357,7 +2369,9 @@ static void start_create_dark(JObj& response, const json_value *params)
     int tot_dur = 0;
     for (int i = minExpInx; i <= maxExpInx; i++)
         tot_dur += exposureDurations[i] * darkFrameCount;
-
+    if (NewDarkLib) {
+        pCamera->ClearDarks();
+    }
 
     for (int inx = minExpInx; inx <= maxExpInx; inx++)
     {
@@ -2396,13 +2410,16 @@ static void start_create_dark(JObj& response, const json_value *params)
     }
  
     pFrame->SetDarkMenuState(); // Hard to know where we are at this point
+    m_started = false;
     if (m_cancelling || err) {
-        response << jrpc_result(false);
-    } else {
         m_cancelling = false;
-        m_started = false;
-        m_has_dark = true;
-        response << jrpc_result(true);
+        if (m_cancelling) {
+            response << jrpc_result("stopped by instruction");
+        } else {
+            response << jrpc_result("stopped by error");
+        }
+    } else {
+        response << jrpc_result("dark finished");
     }
 }
 
