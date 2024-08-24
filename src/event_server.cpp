@@ -2412,12 +2412,12 @@ static void start_create_dark(JObj& response, const json_value *params)
     pFrame->SetDarkMenuState(); // Hard to know where we are at this point
     m_started = false;
     if (m_cancelling || err) {
-        m_cancelling = false;
         if (m_cancelling) {
             response << jrpc_result("stopped by instruction");
         } else {
             response << jrpc_result("stopped by error");
         }
+        m_cancelling = false;
     } else {
         response << jrpc_result("dark finished");
     }
