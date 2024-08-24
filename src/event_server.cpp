@@ -2238,7 +2238,6 @@ struct Histogram
 };
 bool m_cancelling = false;
 bool m_started = false;
-
 bool CreateMasterDarkFrame(usImage& darkFrame, int expTime, int frameCount)
 {
     bool err = false;
@@ -2353,12 +2352,12 @@ static void start_create_dark(JObj& response, const json_value *params)
     } else {
         maxExpInx = max_tmp - exposureDurations.begin();
     }
-    
+
     m_started = true;
     wxYield();
 
-    if (!pCamera->HasShutter)
-        wxMessageBox(_("Cover guide scope"));
+    // if (!pCamera->HasShutter)
+    //     wxMessageBox(_("Cover guide scope"));
     pCamera->ShutterClosed = true;
 
 
