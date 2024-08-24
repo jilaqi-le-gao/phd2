@@ -2309,8 +2309,11 @@ static void test_response(JObj& response, const json_value *params)
 
 static void has_dark(JObj& response, const json_value *params)
 {
-
-    response << jrpc_result(m_has_dark);
+    if (pCamera->Darks.empty()) {
+        response << jrpc_result(false);
+    } else {
+        response << jrpc_result(true);
+    }
 }
 
 static void start_create_dark(JObj& response, const json_value *params)
